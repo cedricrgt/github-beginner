@@ -1,0 +1,72 @@
+# ============================
+# 🧩 Fichier .gitignore — Projet Web
+# ============================
+
+# === Système & éditeur ===
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.swp
+
+# === Dépendances Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# === Build / Distribution ===
+dist/
+build/
+public/
+tmp/
+.cache/
+*.tmp
+
+# === Environnements / Variables secrètes ===
+.env
+.env.local
+.env.*.local
+
+# === Fichiers générés par GitHub Pages ou Actions ===
+docs/
+coverage/
+*.gh-pages/
+
+# === OS spécifiques ===
+# macOS
+.AppleDouble
+.Spotlight-V100
+.Trashes
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# === Sauvegardes d’éditeurs ===
+*.bak
+*.backup
+*.tmp
+*~
+*.old
+
+# === Images temporaires ===
+*.psd
+*.xcf
+*.ai
+*.eps
+
+# === Autres fichiers inutiles ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Exclusions spécifiques pour GitHub Pages ===
+# On garde le dossier contenant le site généré
+!index.html
+!assets/
+!css/
+!js/
+!images/
